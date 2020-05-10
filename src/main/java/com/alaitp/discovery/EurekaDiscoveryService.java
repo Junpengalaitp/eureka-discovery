@@ -1,4 +1,4 @@
-package com.alaitp.discoveryservice;
+package com.alaitp.discovery;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -11,5 +11,4 @@ public class EurekaDiscoveryService {
     public static void main(String[] args) {
         SpringApplication.run(EurekaDiscoveryService.class, args);
     }
-
 }

@@ -2,4 +2,5 @@ spring:
   cloud:
     config:
       name: eureka-discovery
-      uri: http://localhost:8810 # have to use exact ip address instead of localhost for docker container
+      uri: http://localhost:8810
+      profile: dev
